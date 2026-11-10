@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="description" content="Portfolio de Samy Asselah, développeur web à Alger. Sites vitrines, projets événementiels et études de cas.">
+  <title>Samy Asselah — Portfolio</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i="skip">Aller au contenu</a>
+  <svg class="icons" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="up" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="down" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6"/></symbol>
+    <symbol id="right" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="spark" viewBox="0 0 24 24"><path d="M12 0v24M0 12h24M3.5 3.5l17 17m0-17-17 17"/></symbol>
+  </svg>
+  <header class="site-header" id="top">
+    <div class="frame header-inner">
+      <a class="brand" href="#top" aria-label="Samy Asselah"><span class="brand-icon"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M10 22h11l-3.8-4H11l7-8m-2 16 9-10h-5"/></svg></span><span>Samy Asselah<small>PORTFOLIO / 2026</small></span></a>
+      <nav aria-label="Navigation principale" data-aria="navigation"><a href="#services" data-i="navServices">Compétences</a><a href="#profil" data-i="navProfile">Parcours</a><a href="#projets" data-i="navProjects">Projets</a></nav>
+      <div class="header-actions"><button class="language" type="button" aria-label="Switch to English">EN</button><a class="header-contact" href="#contact"><span data-i="navContact">Contact</span><svg><use href="#up"/></svg></a></div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero frame" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true">
+        <span class="art-corner corner-tl"></span><span class="art-corner corner-tr"></span><span class="art-corner corner-bl"></span><span class="art-corner corner-br"></span>
+        <div class="art-grid"></div>
+        <div class="art-orbits"></div>
+        <canvas id="sculpture"></canvas>
+        <span class="art-id">FIG. 01 <i></i> LOOP STUDY</span>
+        <span class="art-coordinate">36.75° N / 3.04° E</span>
+        <span class="art-cross">+</span>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="signal"></span><span data-i="heroKicker">DÉVELOPPEUR WEB / ALGER</span></p>
+        <h1 id="hero-title"><span data-i="heroTitleA">Le web, avec</span><br><em data-i="heroTitleB">du caractère.</em></h1>
+        <p class="hero-description" data-i="heroText">Je suis Samy Asselah, développeur web et étudiant en Mathématiques-Informatique à Alger. Je conçois des sites vitrines et des interfaces web pour les entreprises et les indépendants.</p>
+        <div class="hero-actions"><a class="primary-button" href="#services"><span data-i="heroCta">Découvrir mes compétences</span><svg><use href="#down"/></svg></a><a class="text-button" href="#contact"><span data-i="heroContact">Parlons de ton projet</span><svg><use href="#up"/></svg></a></div>
+      </div>
+      <div class="hero-footer"><span><i></i><span data-i="heroStatus">OUVERT AUX PROJETS ET AUX STAGES</span></span><span class="hero-footer-right">DZ / WEB DEVELOPER <svg><use href="#spark"/></svg></span></div>
+    </section>
+    <section class="services section" id="services" aria-labelledby="services-title">
+      <div class="frame">
+        <div class="section-index"><span>01</span><span data-i="servicesIndex">COMPÉTENCES</span></div>
+        <div class="section-heading"><h2 id="services-title" data-i="servicesHeading">Ce que je sais faire<span>.</span></h2><p data-i="servicesIntro">De la conception d’une interface à la mise en ligne du site.</p></div>
+        <div class="service-list">
+          <article class="service"><span class="service-number">/ 01</span><h3 data-i="service1">Développement web</h3><p data-i="service1Text">Développer des interfaces responsives et relier un site à une base de données pour gérer des contenus, des comptes ou des inscriptions.</p><svg><use href="#up"/></svg></article>
+          <article class="service"><span class="service-number">/ 02</span><h3 data-i="service2">Design et ergonomie</h3><p data-i="service2Text">Organiser les contenus, construire une identité visuelle et rendre la navigation claire, sur un site neuf comme lors d’une refonte.</p><svg><use href="#up"/></svg></article>
+          <article class="service"><span class="service-number">/ 03</span><h3 data-i="service3">Algorithmique</h3><p data-i="service3Text">Décomposer un problème, choisir les structures de données adaptées et expliquer le raisonnement à travers des exercices.</p><svg><use href="#up"/></svg></article>
+        </div>
+        <div class="stack skills-stack" aria-label="Technologies"><span>HTML / CSS</span><span>JavaScript</span><span>React / Next.js</span><span>PHP / MySQL</span><span>Python</span><span>Supabase</span><span>Canva</span></div>
+      </div>
+    </section>
+    <section class="profile frame section" id="profil" aria-labelledby="profile-title">
+      <div class="section-index"><span>02</span><span data-i="profileIndex">EXPÉRIENCES &amp; FORMATION</span></div>
+      <div class="profile-grid">
+        <div><h2 id="profile-title" data-i="profileHeading">Samy<br>Asselah<span>.</span></h2><div class="profile-place"><span class="signal"></span><span data-i="profilePlace">BASÉ À ALGER, ALGÉRIE</span></div></div>
+        <div class="profile-copy"><p class="profile-lead" data-i="profileLead">Développeur web et étudiant en deuxième année de Mathématiques-Informatique à l’ESST Alger.</p><p data-i="profileText">J’aime comprendre comment un outil va être utilisé avant de le construire. Mes stages m’ont fait découvrir le travail en entreprise, et le tutorat m’a appris à expliquer clairement des idées techniques.</p></div>
+      </div>
+      <div class="experience-grid">
+        <article class="experience-card"><span class="experience-type" data-i="internship">STAGE</span><h3>Biopharm</h3><p data-i="biopharm">Participation à des réunions de travail et découverte de la structuration d’un site web en entreprise.</p></article>
+        <article class="experience-card"><span class="experience-type" data-i="internship">STAGE</span><h3>Frater-Razes</h3><p data-i="frater">Stage au sein du groupe pharmaceutique algérien Frater-Razes.</p></article>
+        <article class="experience-card"><span class="experience-type" data-i="involvement">ENGAGEMENT</span><h3>ESST Alger</h3><p data-i="esst">Délégué de section et tuteur en algorithmique auprès d’étudiants de première année.</p></article>
+      </div>
+    </section>
+    <section class="projects frame section" id="projets" aria-labelledby="projects-title">
+      <div class="section-index"><span>03</span><span data-i="projectIndex">RÉALISATIONS</span></div>
+      <div class="section-heading"><h2 id="projects-title" data-i="projectHeading">Projets choisis<span>.</span></h2><p data-i="projectIntro">Quatre exemples de mon travail, du développement web à l’algorithmique visuelle.</p></div>
+      <div class="projects-grid">
+        <article class="project horizon">
+          <button type="button" class="project-trigger" data-project="horizon" aria-haspopup="dialog">
+            <div class="project-art horizon-art" aria-hidden="true">
+              <span class="cover-index">01 / 04</span><span class="cover-type">EVENT PLATFORM</span>
+              <div class="horizon-grid"></div>
+              <div class="horizon-screen">
+                <div class="window-bar"><i></i><i></i><i></i><span>horizon.esst.cloud</span></div>
+                <div class="horizon-body"><div class="mock-nav"><b>H<span>.</span></b><span>ESST × USTHB</span></div><div class="horizon-copy"><small>ALGÉRIE / 2026</small><strong>Horizon<br>numérique<span>.</span></strong><span class="mock-cta">PROGRAMME ↗</span></div><div class="orbital"></div></div>
+              </div>
+            </div>
+            <div class="project-meta"><div><p data-i="horizonTag">SITE ÉVÉNEMENTIEL · WEB CHAIR</p><h3>Horizon</h3></div><span class="project-arrow"><svg><use href="#up"/></svg></span></div>
+          </button>
+        </article>
+        <article class="project dawaa">
+          <button type="button" class="project-trigger" data-project="dawaa" aria-haspopup="dialog">
+            <div class="project-art dawaa-art" aria-hidden="true">
+              <span class="cover-index">02 / 04</span><span class="cover-type">SCIENTIFIC SEMINAR</span>
+              <div class="dawaa-screen"><div class="window-bar"><i></i><i></i><i></i><span>dawaa.esst.cloud</span></div><div class="dawaa-body"><span class="dawaa-date">22 JUIN<br>2026 / ALGER</span><div class="dawaa-molecule"><i></i><i></i><i></i><i></i><i></i></div><span class="dawaa-caption">SÉMINAIRE SCIENTIFIQUE</span><strong>DAWAA<span>’26</span></strong></div></div>
+            </div>
+            <div class="project-meta"><div><p data-i="dawaaTag">SITE ÉVÉNEMENTIEL · WEB CHAIR</p><h3>DAWAA 2026</h3></div><span class="project-arrow"><svg><use href="#up"/></svg></span></div>
+          </button>
+        </article>
+        <article class="project docampus">
+          <button type="button" class="project-trigger" data-project="docampus" aria-haspopup="dialog">
+            <div class="project-art docampus-art" aria-hidden="true">
+              <span class="cover-index">03 / 04</span><span class="cover-type">STUDENT PLATFORM</span>
+              <div class="campus-screen"><div class="window-bar"><i></i><i></i><i></i><span>DoCampus / ESST</span></div><div class="campus-body"><aside><b><i></i> DoCampus</b><span>Catalogue</span><span>Mes ressources</span><span>Proposer un PDF</span></aside><div class="campus-content"><small>ESST / MATHÉMATIQUES-INFORMATIQUE</small><strong>Ressources<br>pédagogiques.</strong><div class="mock-search">⌕ &nbsp; Rechercher un cours</div><div class="mock-modules"><span>01<br><b>Algorithmique</b></span><span>02<br><b>Théorie des graphes</b></span><span>03<br><b>Logique</b></span></div></div></div></div>
+            </div>
+            <div class="project-meta"><div><p data-i="campusTag">PLATEFORME ÉTUDIANTE · EN DÉVELOPPEMENT</p><h3>DoCampus</h3></div><span class="project-arrow"><svg><use href="#up"/></svg></span></div>
+          </button>
+        </article>
+        <article class="project spatial">
+          <button type="button" class="project-trigger" data-project="spatial" aria-haspopup="dialog">
+            <div class="project-art spatial-art" aria-hidden="true">
+              <span class="cover-index">04 / 04</span><span class="cover-type">VISUAL ALGORITHM</span>
+              <div class="spatial-body"><div><small>EXPERIMENT / 01</small><strong>Spatial<br>Decryption</strong><span>3×3 PATTERN SYSTEM</span></div><svg viewBox="0 0 120 120" class="spatial-grid"><path d="M16 16h88v88H16zM16 60h88M60 16v88"/><polyline points="16,104 16,16 60,60 104,16 104,104 60,104"/><g><circle cx="16" cy="16" r="4"/><circle cx="60" cy="16" r="4"/><circle cx="104" cy="16" r="4"/><circle cx="16" cy="60" r="4"/><circle cx="60" cy="60" r="4"/><circle cx="104" cy="60" r="4"/><circle cx="16" cy="104" r="4"/><circle cx="60" cy="104" r="4"/><circle cx="104" cy="104" r="4"/></g></svg></div>
+            </div>
+            <div class="project-meta"><div><p data-i="spatialTag">EXPÉRIMENTATION · ALGORITHMIQUE</p><h3>Spatial Decryption</h3></div><span class="project-arrow"><svg><use href="#up"/></svg></span></div>
+          </button>
+        </article>
+      </div>
+    </section>
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="frame contact-inner">
+        <div class="section-index"><span>04</span><span data-i="contactIndex">CONTACT</span></div>
+        <svg class="contact-star" aria-hidden="true"><use href="#spark"/></svg>
+        <h2 id="contact-title" data-i="contactTitle">On en parle<span> ?</span></h2>
+        <p data-i="contactText">Une idée de site, une collaboration ou une opportunité de stage ? Écris-moi sur LinkedIn.</p>
+        <a class="primary-button" href="https://www.linkedin.com/in/asselah-samy/" target="_blank" rel="noopener"><span data-i="contactButton">M’écrire sur LinkedIn</span><svg><use href="#up"/></svg></a>
+      </div>
+    </section>
+  </main>
+  <footer class="frame footer"><span>© 2026 SAMY ASSELAH</span><div><a href="https://github.com/Samy-Asl" target="_blank" rel="noopener">GitHub <svg><use href="#up"/></svg></a><a href="https://www.instagram.com/asselah_samy/" target="_blank" rel="noopener">Instagram <svg><use href="#up"/></svg></a></div><a href="#top" class="back-top" data-i="backTop">HAUT DE PAGE ↑</a></footer>
+  <dialog class="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <form method="dialog"><button class="close-dialog" type="submit" aria-label="Fermer" autofocus>×</button></form>
+      <p class="eyebrow dialog-label"></p><h2 id="dialog-title"></h2><p class="dialog-description"></p>
+      <div class="dialog-detail"><h3 data-i="dialogRole">Contribution</h3><p class="dialog-role"></p></div>
+      <div class="stack dialog-stack"></div>
+      <a class="primary-button dialog-link" target="_blank" rel="noopener"><span></span><svg><use href="#up"/></svg></a>
+    </div>
+  </dialog>
+</body>
+</html>
